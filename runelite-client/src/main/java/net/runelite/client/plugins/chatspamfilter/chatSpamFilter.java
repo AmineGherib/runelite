@@ -1,5 +1,6 @@
 package net.runelite.client.plugins.chatspamfilter;
 
+import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
 
 @PluginDescriptor(
@@ -8,5 +9,6 @@ import net.runelite.client.plugins.PluginDescriptor;
         tags = {"duel", "messages", "notifications", "trade", "username"},
         enabledByDefault = false
 )
-public class chatSpamFilter {
+public class chatSpamFilter extends Plugin {
+
 }
